@@ -61,6 +61,6 @@
     
     .parallax #tagline2 {
         font-size: 3.5vw;
-        transform: translateY(70px);
+        transform: translateY(50px);
     }
 }
