@@ -8,9 +8,9 @@
 }
 
 .history-container {
-    max-width: 1700px;
+    max-width: 1920px;
     width: 100%;
-    padding: 40px 10px;
+    padding: 40px 0;
 }
 
 .history-content {
@@ -20,7 +20,7 @@
 }
 
 .history .card {
-    height: 95vh;
+    height: 90vh;
     border-radius: 25px;
     background-color: #FFF;
 }
@@ -35,43 +35,18 @@
 
 .history .image-content {
     position: relative;
-    row-gap: 5px;
-    padding: 25px 0;
+    padding: 0;
 }
 
 .history .card-image {
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
     border-radius: 50%;
     background: #FFF;
-    padding: 3px;
 }
 
 .history .card-image .card-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border: 4px solid #4070F4;
-}
-
-
-.history .image-content-long {
-    display: flex;
-    flex-direction: column;
-}
-
-.history .image-content-long {
-    position: relative;
-}
-
-.history .card-image-long {
-    position: relative;
-    height: 50%;
-    width: 100%;
-}
-
-.history .card-image-long .card-img-long {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -79,14 +54,13 @@
 }
 
 .history .title {
-    font-size: 2em;
-    font-weight: 0.5em;
+    font-size: 18px;
+    font-weight: 500;
     color: #333;
-    padding: 0, 20px;
 }
 
 .history .info {
-    font-size: 1em;
+    font-size: 14px;
     color: #707070;
     text-align: center;
 }
