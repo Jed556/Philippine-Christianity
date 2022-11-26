@@ -20,7 +20,10 @@ var historySwiper = new Swiper(".history-content", {
         },
         520: {
             slidesPerView: 2,
-        }
+        },
+        950: {
+            slidesPerView: 3,
+        },
     },
 });
 
@@ -49,7 +52,7 @@ var memberSwiper = new Swiper(".members-content", {
             slidesPerView: 2,
         },
         950: {
-            slidesPerView: 3,
+            slidesPerView: 4,
         },
     },
 

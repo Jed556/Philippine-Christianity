@@ -1,6 +1,6 @@
 /* HISTORY CARD CONTENT */
 .history {
-    min-height: 125vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,6 +20,7 @@
 }
 
 .history .card {
+    height: 90vh;
     border-radius: 25px;
     background-color: #FFF;
 }
@@ -66,7 +67,13 @@
 
 .history .card-image-long {
     position: relative;
-    height: 800px;
+    height: 50%;
+    width: 100%;
+}
+
+.aglipay .card-image-long {
+    position: relative;
+    height: 65vh;
     width: 100%;
 }
 
