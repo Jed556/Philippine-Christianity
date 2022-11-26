@@ -199,6 +199,10 @@ footer p {
     }
 
     footer {
-        height: 5vh;
+        height: 6vh;
+    }
+
+    footer p {
+    font-size: 11px;
     }
 }

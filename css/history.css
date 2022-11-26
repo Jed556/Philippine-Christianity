@@ -20,7 +20,7 @@
 }
 
 .history .card {
-    height: 90vh;
+    height: 95vh;
     border-radius: 25px;
     background-color: #FFF;
 }
@@ -68,12 +68,6 @@
 .history .card-image-long {
     position: relative;
     height: 50%;
-    width: 100%;
-}
-
-.aglipay .card-image-long {
-    position: relative;
-    height: 65vh;
     width: 100%;
 }
 
@@ -140,4 +134,11 @@
         text-align: center;
     }
 
+    .history .card {
+        height: 70vh;
+    }
+
+    .history {
+        min-height: 78vh;
+    }
 }

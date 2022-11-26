@@ -1,6 +1,6 @@
 /* MEMBER CARD CONTENT */
 .members {
-    min-height: 42vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,12 +85,14 @@
     font-size: 18px;
     font-weight: 500;
     color: #333;
+    z-index: 10;
 }
 
 .members .description {
     font-size: 14px;
     color: #707070;
     text-align: center;
+    z-index: 10;
 }
 
 .members .button {
@@ -138,4 +140,30 @@
 
 .swiper-pagination-member-bullet-active {
     background-color: #4070F4;
+}
+
+/* DYNAMIC */
+@media screen and (max-width: 768px) {
+    .members .name {
+        font-size: 16px;
+    }
+    
+    .members .description {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .members .card-image {
+        height: 100px;
+        width: 100px;
+    }
+
+    .members .image-content {
+        row-gap: 5px;
+        padding: 15px 0;
+    }
+
+    .members {
+        min-height: 40vh;
+    }
 }
