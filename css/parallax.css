@@ -1,5 +1,5 @@
 /* PARALLAX SECTION */
-section {
+.parallax {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -10,7 +10,7 @@ section {
     overflow: hidden;
 }
 
-section::before {
+.parallax::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -20,7 +20,7 @@ section::before {
     z-index: 1000;
 }
 
-section img {
+.parallax img {
     position: absolute;
     top: 0;
     left: 0;
@@ -28,4 +28,22 @@ section img {
     height: 100%;
     object-fit: cover;
     pointer-events: none;
+}
+
+.parallax #tagline1,
+.parallax #tagline2 {
+    top: 100px;
+    text-align: left;
+    position: absolute;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.parallax #tagline1 {
+    font-size: 6vw;
+}
+
+.parallax #tagline2 {
+    font-size: 2.5vw;
+    transform: translateY(130px);
 }
