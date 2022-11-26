@@ -14,8 +14,8 @@
 
 body {
     min-height: 100vh;
+    width: 100%;
     background: linear-gradient(#2E7BE1, white);
-    overflow-x: hidden;
 }
 
 
@@ -155,5 +155,50 @@ footer p {
     .swiper-navBtn-member,
     .swiper-navBtn-history {
         display: none;
+    }
+
+    header .logo {
+        display: none;;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+
+    header ul li a {
+        font-size: 0.5em;
+        padding: 6px 9px;
+        border-radius: 20px;
+    }
+
+    header {
+        padding: 30px 10px;
+        display: block;
+    }
+
+    .christian-text {
+        padding: 25px 50px;
+    }
+
+    .christian-text h2 {
+        font-size: 1.5em;
+    }
+
+    .christian-text p {
+        font-size: 0.7em;
+    }
+
+    .religion-text {
+        padding: 25px 50px;
+    }
+
+    .religion-text h2 {
+        font-size: 1.5em;
+    }
+
+    .religion-text p {
+        font-size: 0.7em;
+    }
+
+    footer {
+        height: 5vh;
     }
 }

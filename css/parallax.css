@@ -47,3 +47,20 @@
     font-size: 2.5vw;
     transform: translateY(130px);
 }
+
+/* DYNAMIC */
+@media screen and (max-width: 768px) {
+    .parallax #tagline1,
+    .parallax #tagline2 {
+        top: 200px;
+    }
+
+    .parallax #tagline1 {
+        font-size: 8vw;
+    }
+    
+    .parallax #tagline2 {
+        font-size: 3.5vw;
+        transform: translateY(70px);
+    }
+}

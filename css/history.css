@@ -120,3 +120,17 @@
 .swiper-pagination-history-bullet-active {
     background-color: #4070F4;
 }
+
+/* DYNAMIC */
+@media screen and (max-width: 768px) {
+    .history .title {
+        font-size: 1.5em;
+    }
+
+    .history .info {
+        font-size: 0.7em;
+        color: #707070;
+        text-align: center;
+    }
+
+}
