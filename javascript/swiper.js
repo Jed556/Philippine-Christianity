@@ -5,15 +5,18 @@ var historySwiper = new Swiper(".history-content", {
     centerSlide: 'true',
     fade: 'true',
     grabCursor: 'true',
+
     pagination: {
         el: ".swiper-pagination-history",
         clickable: true,
         dynamicBullets: true,
     },
+
     navigation: {
         nextEl: ".swiper-button-next-history",
         prevEl: ".swiper-button-prev-history",
     },
+
     breakpoints: {
         0: {
             slidesPerView: 1,
@@ -25,6 +28,11 @@ var historySwiper = new Swiper(".history-content", {
             slidesPerView: 3,
         },
     },
+
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: true
+    }
 });
 
 var memberSwiper = new Swiper(".members-content", {
@@ -34,11 +42,13 @@ var memberSwiper = new Swiper(".members-content", {
     centerSlide: 'true',
     fade: 'true',
     grabCursor: 'true',
+
     pagination: {
         el: ".swiper-pagination-member",
         clickable: true,
         dynamicBullets: true,
     },
+
     navigation: {
         nextEl: ".swiper-button-next-member",
         prevEl: ".swiper-button-prev-member",
@@ -57,7 +67,7 @@ var memberSwiper = new Swiper(".members-content", {
     },
 
     autoplay: {
-        delay: 2500,
+        delay: 2600,
         disableOnInteraction: false
     }
 });
