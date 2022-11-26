@@ -14,6 +14,14 @@ var historySwiper = new Swiper(".history-content", {
         nextEl: ".swiper-button-next-history",
         prevEl: ".swiper-button-prev-history",
     },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        520: {
+            slidesPerView: 2,
+        }
+    },
 });
 
 var memberSwiper = new Swiper(".members-content", {

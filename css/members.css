@@ -1,6 +1,6 @@
 /* MEMBER CARD CONTENT */
 .members {
-    min-height: 50vh;
+    min-height: 42vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +10,7 @@
 .members-container {
     max-width: 1700px;
     width: 100%;
-    padding: 40px 0;
+    padding: 40px 10px;
 }
 
 .members-content {
